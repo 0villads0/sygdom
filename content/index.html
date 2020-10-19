@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" charset="utf-8" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Start</title>
+  </head>
+  <body>
+    <script src="main.js"></script>
+    <div id="title_card">
+      <a href="index.html">
+      <h1 id="title">Barvi Scanner</h1>
+      </a>
+    </div>
+    <center>
+    <canvas id="canvas"></canvas>
+    </center>
+
+    <center>
+    <div id="upload_segment">
+      <input type="file" id="fileInput" accept="image/png, image/jpeg" onchange="upload()"/>
+      <label for="fileInput" id="fileLabel">Upload</label>
+      <input type="button" id="analyse_button" onclick="analyse()" value="Analyser">
+    </div>
+    </center>
+
+  </body>
+</html>
